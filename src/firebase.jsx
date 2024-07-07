@@ -4,7 +4,7 @@ import "firebase/compat/database"
 import "firebase/compat/firestore"
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyDNgIxAJhygzo28S5rJmI7Ew-e94yi8x7g",
+  apiKey: process.env.API_KEY,
   authDomain: "chatbuddy-b4bae.firebaseapp.com",
   projectId: "chatbuddy-b4bae",
   storageBucket: "chatbuddy-b4bae.appspot.com",
